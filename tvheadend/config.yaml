@@ -42,4 +42,4 @@ schema:
   init_commands:
     - str
 #image: 'ghcr.io/marious1985/tvheadend/{arch}'
- image: 'ghcr.io/hassio-addons/base/'
+ image: 'ghcr.io/hassio-addons/base/{arch}'

@@ -2,7 +2,7 @@ name: TVHeadend
 version: 2.0.2-alpha
 slug: tvheadend
 description: TV streaming server and recorder.
-url: 'https://github.com/GauthamVarmaK/addon-tvheadend'
+url: 'https://github.com/marious1985/addon-tvheadend'
 arch:
   - aarch64
   - amd64
@@ -41,5 +41,4 @@ schema:
     - str
   init_commands:
     - str
-#image: 'ghcr.io/marious1985/tvheadend/{arch}'
- image: 'ghcr.io/hassio-addons/base/{arch}'
+image: 'ghcr.io/marious1985/tvheadend/{arch}'
